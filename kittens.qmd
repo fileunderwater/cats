@@ -1,6 +1,6 @@
 ---
 title: "Kattungar"
-author: "Tobias Jeppsson, Frej Gharbi Jeppsson & Ingvild Gharbi Jeppsson"
+author: "Frej, Birk och Ingvild Gharbi Jeppsson"
 date: today
 format: 
   html:
@@ -15,7 +15,7 @@ theme: cosmo # bootstrap 5 default
 #| echo: false
 # Load packages.
 r.packages <- 
-  "readxl dplyr tidyr ggplot2 viridis RColorBrewer"
+  "readxl dplyr tidyr ggplot2 viridis RColorBrewer ggthemes"
 
 import <- function(x)
  x |> trimws() |> strsplit("\\s+") |> unlist() |>
@@ -31,16 +31,52 @@ r.packages |> import()
 #| echo: false
 # read data
 
-data<- read_xlsx(path="kattungar.xlsx", col_names = TRUE)
+data<- read_xlsx(path="kattungar.xlsx", col_names = TRUE)  |> 
+  rename(Svartvit = SV, Gråvit = GV, Spräcklig = Sp, Gul = G) 
+
+
+data_long<- data |> select("Svartvit","Gråvit","Spräcklig","Gul", "datum") |> 
+  gather(key = "katt", value = "vikt", c("Svartvit","Gråvit","Spräcklig","Gul")) |>
+  arrange(katt, datum) |>
+  group_by(katt) |>
+  mutate(tillväxt = vikt - first(vikt)) |>
+  ungroup()
 
 ```
 
-## Test
+## Bakgrund
 
 Lite info om våra kattungar.
 
-![kattungar1](./img/kattungar1_w.jpg)
+![Några av kattungarna, ca 3 dagar gamla.](./img/kattungar1_w.jpg)
 
-## Test2
+## Utveckling
+
+```{r}
+#| echo: FALSE
+
+colorset<- c("Svartvit" = "black",
+             "Gråvit"="grey",
+             "Spräcklig"="orange", 
+             "Gul" = "gold1")
+ggplot(data=data_long, aes(x=datum, y=vikt, color=katt)) +
+    geom_point(stat="identity", size = 2) +
+    geom_line(linewidth = 1) + 
+    scale_color_manual(values = colorset) +
+    theme_bw() + 
+    theme(axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+            axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l = 0)))
+
+ggplot(data=data_long, aes(x=datum, y=tillväxt, color=katt)) +
+    geom_point(stat="identity", size = 2) +
+    geom_line(linewidth = 1) + 
+    scale_color_manual(values = colorset) +
+    ylab("Tillväxt (%)") +
+    theme_bw() + 
+    theme(axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+            axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l = 0)))
+```
+
+## Rubrik 3
 
 Lite text.
