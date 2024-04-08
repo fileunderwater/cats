@@ -4,20 +4,20 @@
     "href": "kittens.html",
     "title": "Kattungar",
     "section": "",
-    "text": "Test"
+    "text": "Test\n\n\n\nkattungar1"
   },
   {
     "objectID": "kittens.html#test",
     "href": "kittens.html#test",
     "title": "Kattungar",
     "section": "",
-    "text": "Test"
+    "text": "Test\n\n\n\nkattungar1"
   },
   {
-    "objectID": "kittens.html#running-code",
-    "href": "kittens.html#running-code",
+    "objectID": "kittens.html#test2",
+    "href": "kittens.html#test2",
     "title": "Kattungar",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+    "section": "Test2",
+    "text": "Test2\nLite text."
   }
 ]
