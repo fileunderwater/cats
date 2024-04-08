@@ -1,6 +1,6 @@
 ---
 title: "Kattungar"
-author: "Tobias Jeppsson & Ingvild Gharbi Jeppsson"
+author: "Tobias Jeppsson, Frej Gharbi Jeppsson & Ingvild Gharbi Jeppsson"
 date: today
 format: 
   html:
@@ -37,7 +37,7 @@ data<- read_xlsx(path="kattungar.xlsx", col_names = TRUE)
 
 ## Test
 
-Test
+Lite info om våra kattungar.
 
 ![kattungar1](./img/kattungar1_w.jpg)
 
