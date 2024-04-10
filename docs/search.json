@@ -4,21 +4,21 @@
     "href": "kittens.html",
     "title": "Kattungar",
     "section": "",
-    "text": "Lite info om våra kattungar.\n\n\n\nNågra av kattungarna, ca 3 dagar gamla."
+    "text": "Warning: Expecting numeric in H40 / R40C8: got a date\n\n\nNew names:\n• `` -&gt; `...20`\n• `` -&gt; `...21`\n• `` -&gt; `...22`\n• `` -&gt; `...23`"
   },
   {
     "objectID": "kittens.html#bakgrund",
     "href": "kittens.html#bakgrund",
     "title": "Kattungar",
-    "section": "",
-    "text": "Lite info om våra kattungar.\n\n\n\nNågra av kattungarna, ca 3 dagar gamla."
+    "section": "Bakgrund",
+    "text": "Bakgrund\nLite info om våra kattungar.\n\n\n\nNågra av kattungarna, ca 3 dagar gamla."
   },
   {
     "objectID": "kittens.html#utveckling",
     "href": "kittens.html#utveckling",
     "title": "Kattungar",
     "section": "Utveckling",
-    "text": "Utveckling"
+    "text": "Utveckling\n\n\nWarning: Removed 112 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\nWarning: Removed 112 rows containing missing values or values outside the scale range\n(`geom_line()`).\n\n\n\n\n\nWarning: Removed 112 rows containing missing values or values outside the scale range\n(`geom_point()`).\nRemoved 112 rows containing missing values or values outside the scale range\n(`geom_line()`)."
   },
   {
     "objectID": "kittens.html#rubrik-3",

@@ -5,6 +5,7 @@ date: today
 format: 
   html:
     smooth-scroll: true  
+    toc: true
     
 editor: visual
 theme: cosmo # bootstrap 5 default
