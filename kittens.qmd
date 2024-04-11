@@ -33,7 +33,7 @@ r.packages |> import()
 #| WARNING: FALSE
 # read data
 
-data<- read_xlsx(path="kattungar.xlsx", col_names = TRUE)  |> 
+data<- read_xlsx(path="kattungar.xlsx", col_names = TRUE) |> 
   rename(Svartvit = SV, Gråvit = GV, Spräcklig = Sp, Gul = G) 
 
 
