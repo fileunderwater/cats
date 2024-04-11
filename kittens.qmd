@@ -30,6 +30,7 @@ r.packages |> import()
 
 ```{r}
 #| echo: false
+#| WARNING: FALSE
 # read data
 
 data<- read_xlsx(path="kattungar.xlsx", col_names = TRUE)  |> 
@@ -47,7 +48,15 @@ data_long<- data |> select("Svartvit","Gråvit","Spräcklig","Gul", "datum") |>
 
 ## Bakgrund
 
-Lite info om våra kattungar.
+Här kan du läsa lite mer om våra kattungar.
+
+### Shera (Mamman)
+Kattungarnas mamma heter Shera. Shera är sköldpaddsfärgad. Vi märkte att Shera var gravid ungefär en och en halv vecka tidigare.
+
+### Kattungarna
+Det är fyra stycken kattungar: en är orange-vit, en vit-sköldpaddsfärgad, en svart-vit, en grå-vit med ränder.Kattungarna föddes i ett klädsåp som står i ett sovrum. De föddes den fjärde April.
+
+
 
 ![Några av kattungarna, ca 3 dagar gamla.](./img/kattungar1_w.jpg)
 

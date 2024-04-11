@@ -4,21 +4,21 @@
     "href": "kittens.html",
     "title": "Kattungar",
     "section": "",
-    "text": "Warning: Expecting numeric in H40 / R40C8: got a date\n\n\nNew names:\n• `` -&gt; `...20`\n• `` -&gt; `...21`\n• `` -&gt; `...22`\n• `` -&gt; `...23`"
+    "text": "New names:\n• `` -&gt; `...20`\n• `` -&gt; `...21`\n• `` -&gt; `...22`\n• `` -&gt; `...23`"
   },
   {
     "objectID": "kittens.html#bakgrund",
     "href": "kittens.html#bakgrund",
     "title": "Kattungar",
     "section": "Bakgrund",
-    "text": "Bakgrund\nLite info om våra kattungar.\n\n\n\nNågra av kattungarna, ca 3 dagar gamla."
+    "text": "Bakgrund\nHär kan du läsa lite mer om våra kattungar.\n\nShera (Mamman)\nKattungarnas mamma heter Shera. Shera är sköldpaddsfärgad. Vi märkte att Shera var gravid ungefär en och en halv vecka tidigare.\n\n\nKattungarna\nDet är fyra stycken kattungar: en är orange-vit, en vit-sköldpaddsfärgad, en svart-vit, en grå-vit med ränder.Kattungarna föddes i ett klädsåp som står i ett sovrum. De föddes den fjärde April.\n\n\n\nNågra av kattungarna, ca 3 dagar gamla."
   },
   {
     "objectID": "kittens.html#utveckling",
     "href": "kittens.html#utveckling",
     "title": "Kattungar",
     "section": "Utveckling",
-    "text": "Utveckling\n\n\nWarning: Removed 112 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\nWarning: Removed 112 rows containing missing values or values outside the scale range\n(`geom_line()`).\n\n\n\n\n\nWarning: Removed 112 rows containing missing values or values outside the scale range\n(`geom_point()`).\nRemoved 112 rows containing missing values or values outside the scale range\n(`geom_line()`)."
+    "text": "Utveckling"
   },
   {
     "objectID": "kittens.html#rubrik-3",
