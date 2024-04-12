@@ -9,6 +9,7 @@ format:
     
 editor: visual
 theme: cosmo # bootstrap 5 default
+title-block-banner: true
 
 ---
 
