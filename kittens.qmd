@@ -58,7 +58,6 @@ Kattungarnas mamma heter Shera. Shera är sköldpaddsfärgad. Vi märkte att She
 Det är fyra stycken kattungar: en är orange-vit, en vit-sköldpaddsfärgad, en svart-vit, en grå-vit med ränder.Kattungarna föddes i ett klädsåp som står i ett sovrum. De föddes den fjärde April.
 
 
-
 ![Några av kattungarna, ca 3 dagar gamla.](./img/kattungar1_w.jpg)
 
 ## Utveckling
@@ -88,6 +87,6 @@ ggplot(data=data_long, aes(x=datum, y=tillväxt, color=katt)) +
             axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l = 0)))
 ```
 
-## Rubrik 3
+## Fler bilder
 
 Lite text.
