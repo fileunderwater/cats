@@ -89,4 +89,4 @@ ggplot(data=data_long, aes(x=datum, y=tillväxt, color=katt)) +
 
 ## Fler bilder
 
-Lite text.
+Lite text och bilder.
