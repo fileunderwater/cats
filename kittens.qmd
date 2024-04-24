@@ -8,6 +8,10 @@ format:
     toc: true
     
 editor: visual
+filters: 
+  - lightbox
+
+lightbox: auto
 theme: cosmo # bootstrap 5 default
 title-block-banner: true
 ---
@@ -59,7 +63,8 @@ Kattungarnas mamma heter Shera. Shera är sköldpaddsfärgad. Vi märkte att She
 
 Det är fyra stycken kattungar: en är orange-vit, en vit-sköldpaddsfärgad, en svart-vit, en grå-vit med ränder.Kattungarna föddes i ett klädsåp som står i ett sovrum. De föddes den fjärde April.
 
-![Några av kattungarna, ca 3 dagar gamla.](./img/kattungar1_w.jpg)
+![Några av kattungarna](./img/kattungar1_w.jpg){
+  description="Några av kattungarna, ca 3 dagar gamla."}
 
 ## Utveckling
 
@@ -90,4 +95,46 @@ ggplot(data=data_long, aes(x=datum, y=tillväxt, color=katt)) +
 
 ## Fler bilder
 
-Lite text och bilder.
+### Vägning
+
+Vi har vägt kattungarna en eller flera gånger varje dag.
+
+![vägning](./img/vägning.png){group="vägning"
+description="Vi har vägt ungarna varje dag sedan de föddes."}
+
+![en till vägning](./img/vägning2.png){group="vägning"
+description="Kattungarna har gått upp i vikt i stort sett varje dag."}
+
+### Ögonen öppnas
+
+När ungarna var ungefär en vecka gamla så började ögonen öppnas ordentligt.
+
+![Ögonen öppnas](./img/nya_ögon.png){group="ögon"}
+![Ögonen öppnas](./img/katt-i-hand.png){group="ögon"}
+
+### Sover, vilar och äter
+
+Kattungarna sover väldigt mycket, och vill helst ligga i sin låda nu när de är små.
+
+![En hög med kattungar](./img/katthög.png){group="lådan"}
+
+![Här ammar och sover kattungarna](./img/katthög2.png){group="lådan"}
+
+![Sover med Shera](./img/kattungar_shera.png){group="lådan"}
+
+![Sover tillsammans](./img/sover.png){group="lådan"}
+
+![Får mjölk av Shera](./img/diar.png){group="lådan"}
+
+### Leker
+
+Kattungarna har börjat leka lite, nu när de är ca 3 veckor gamla.
+
+![Leker och nafsar](./img/lek1.png){group="leker"}
+
+![Leker och boxas](./img/lek2.png){group="leker"}
+
+### Namn 
+
+![Vi har börjat ge kattungarna namn](./img/lådan.png){
+description="Just nu heter dom Messi (spräcklig), Houdini (svart-vit), Gustav (gul) och Bobby (grå-vit)"}
