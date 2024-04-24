@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Det är fyra stycken kattungar: en är orange-vit, en vit-sköldpaddsfärgad, en svart-vit, en grå-vit med ränder.Kattungarna föddes i ett klädsåp som står i ett sovrum. De föddes den fjärde April.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./img/kattungar1_w.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1;title:Några av kattungarna;" title="Några av kattungarna"><img src="./img/kattungar1_w.jpg" class="img-fluid figure-img" alt="Några av kattungarna"></a></p>
+<p><a href="./img/kattungar1_w.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1;title:Några av kattungarna;" data-gallery="quarto-lightbox-gallery-1" title="Några av kattungarna"><img src="./img/kattungar1_w.jpg" class="img-fluid figure-img" alt="Några av kattungarna"></a></p>
 <figcaption>Några av kattungarna</figcaption>
 </figure>
 </div>
@@ -183,13 +183,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Vi har vägt kattungarna en eller flera gånger varje dag.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./img/vägning.png" class="lightbox" data-gallery="vägning" data-glightbox="description: .lightbox-desc-4;title:vägning;" title="vägning"><img src="./img/vägning.png" class="img-fluid figure-img" alt="vägning"></a></p>
+<p><a href="./img/vägning.png" class="lightbox" data-glightbox="description: .lightbox-desc-4;title:vägning;" data-gallery="vägning" title="vägning"><img src="./img/vägning.png" class="img-fluid figure-img" alt="vägning"></a></p>
 <figcaption>vägning</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./img/vägning2.png" class="lightbox" data-gallery="vägning" data-glightbox="description: .lightbox-desc-5;title:en till vägning;" title="en till vägning"><img src="./img/vägning2.png" class="img-fluid figure-img" alt="en till vägning"></a></p>
+<p><a href="./img/vägning2.png" class="lightbox" data-glightbox="description: .lightbox-desc-5;title:en till vägning;" data-gallery="vägning" title="en till vägning"><img src="./img/vägning2.png" class="img-fluid figure-img" alt="en till vägning"></a></p>
 <figcaption>en till vägning</figcaption>
 </figure>
 </div>
@@ -253,8 +253,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="namn">Namn</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./img/lådan.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" data-glightbox="description: .lightbox-desc-13;title:Vi har börjat ge kattungarna namn;" title="Vi har börjat ge kattungarna namn"><img src="./img/lådan.png" class="img-fluid figure-img" alt="Vi har börjat ge kattungarna namn"></a></p>
-<figcaption>Vi har börjat ge kattungarna namn</figcaption>
+<p><a href="./img/lådan.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Vi har börjat ge kattungarna namn. Just nu heter dom Messi (spräcklig), Houdini (svart-vit), Gustav (gul) och Bobby (grå-vit)"><img src="./img/lådan.png" class="img-fluid figure-img" alt="Vi har börjat ge kattungarna namn. Just nu heter dom Messi (spräcklig), Houdini (svart-vit), Gustav (gul) och Bobby (grå-vit)"></a></p>
+<figcaption>Vi har börjat ge kattungarna namn. Just nu heter dom Messi (spräcklig), Houdini (svart-vit), Gustav (gul) och Bobby (grå-vit)</figcaption>
 </figure>
 </div>
 
@@ -268,9 +268,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="glightbox-desc lightbox-desc-5">
 <p>Kattungarna har gått upp i vikt i stort sett varje dag.</p>
-</div>
-<div class="glightbox-desc lightbox-desc-13">
-<p>Just nu heter dom Messi (spräcklig), Houdini (svart-vit), Gustav (gul) och Bobby (grå-vit)</p>
 </div>
 </div>
 </section>
@@ -698,7 +695,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

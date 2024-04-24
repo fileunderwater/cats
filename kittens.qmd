@@ -136,5 +136,4 @@ Kattungarna har börjat leka lite, nu när de är ca 3 veckor gamla.
 
 ### Namn 
 
-![Vi har börjat ge kattungarna namn](./img/lådan.png){
-description="Just nu heter dom Messi (spräcklig), Houdini (svart-vit), Gustav (gul) och Bobby (grå-vit)"}
+![Vi har börjat ge kattungarna namn. Just nu heter dom Messi (spräcklig), Houdini (svart-vit), Gustav (gul) och Bobby (grå-vit)](./img/lådan.png)
